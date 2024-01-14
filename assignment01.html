@@ -45,18 +45,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dogesplorer</title>
   </head>
-
   <style>
     /* got style reccomendation from AI, then confirmed on stackoverflow */
   table, th, td {
     margin: 10px;
-    border: 2px solid black; 
     padding: 25px;
     text-align: center;
     border-collapse: collapse;
   }
   </style>
-
   <body>
     <h1>Dogesplorer</h1>
     <h2>Dogecoin Address Explorer</h2>
@@ -64,44 +61,19 @@
     <table>
       <caption>Enter a wallet address, transaction hash, or block address to search</caption>
       <tr>
+        <!-- img with relative path -->
         <th><img src="./doge_logo.jpg" height="50" width="50"></th>
-        <td><textarea rows="1" cols="100"> -type search stuff here- </textarea>_______________search_field_element_______________</td>
+        <td><textarea rows="1" cols="100"> -type search stuff here- </textarea></td>
         <td>search_button_element</td>
       </tr>
     </table>
-    <!--img with relative and absolute paths-->
+    <!--img with absolute path-->
     <iframe width="19%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThSTQoc3lNEAPGnErDlKqQhQl8YRoG2ueX1g&usqp=CAU" alt="Photo of the great Howard Hughes!"></iframe>
     <iframe width="7.36%" src="./img001.jpg" alt="Another photo of the great Howard Hughes!"></iframe>
+    <iframe width="35%" height="320" src="./table001.html" alt="Price/Block ticker"></iframe>
+
     <h3>Learn to invest like Howard Hughes!</h3>
-
-    <!-- news update table -->
-    <!-- I want this table to be displayed next to the images, not underneath -->
-    <table>
-      <caption>Live Updates</caption>
-      <thead>
-        <tr>
-          <th>Dogecoin Price</th>
-          <th>Most Recent Block</th>
-          <th>Number of Blocks</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>doge_price_element</td>
-        <td>last_block_element</td>
-        <td>total_blocks_element</td>
-      </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">Current Difficulty</td>
-        </tr>
-        <tr>
-          <td colspan="3">current_diff_element</td>
-        </tr>
-      </tfoot>
-    </table>
-
+    <!-- anchor here -->
     <p>click<a href="#currency_list"> here </a>to skip directly to description list using a fragment identifier</p>
     <p>Dogesplorer is the #1 site in the World for exploring the Doge blockchain! 
       <br>Just enter a wallet address, a transaction hash, or a 
