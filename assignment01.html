@@ -21,15 +21,15 @@
     width,                                √
     height,                               √
     alt,                                  √
-    table,                                
-    row, 
-    data cell, 
-    border, 
-    table caption, 
-    table header, 
-    table body, 
-    table footer, 
-    spanning columns
+    table,                                √
+    row,                                  √
+    data cell,                            √
+    border,                               √
+    table caption,                        √
+    table header,                         √
+    table body,                           √
+    table footer,                         √
+    spanning columns                      √
 -->
 
 <!DOCTYPE html>
@@ -44,6 +44,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dogesplorer</title>
   </head>
+  <style>
+  table, th, td {
+    margin: 50px;
+    border: 2px solid black; 
+    padding: 25px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  </style>
   <body>
     <h1>Dogesplorer</h1>
     <h2>Dogecoin Address Explorer</h2>
@@ -68,9 +77,39 @@
       <a href="https://dogechain.info/">#2 Doge Explorer in the World</a></p>
     
 
-    <h1>DOGE ENERGY RN!!!!</h1>
+    <h1>DOGE ENERGY RN!!!! (NEWS)</h1>
     <iframe src="https://archive.org/embed/koto-jabdah-live-perfromance" width="560" height="315" frameborder="0" webkitallowfullscreen="true" 
     mozallowfullscreen="true" allowfullscreen></iframe>
+    <br>
+    <br>
+
+
+    <table>
+      <caption>Live Updates</caption>
+      <thead>
+        <tr>
+          <th>Dogecoin Price</th>
+          <th>Most Recent Block</th>
+          <th>Number of Blocks</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>doge_price_element</td>
+        <td>last_block_element</td>
+        <td>total_blocks_element</td>
+      </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Current Difficulty</td>
+        </tr>
+        <tr>
+          <td colspan="3">current_diff_element</td>
+        </tr>
+      </tfoot>
+
+    </table>
 
 
     <h2>Ordered List</h2>
