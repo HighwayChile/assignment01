@@ -5,7 +5,8 @@ Jan 15, 2024
 
 ## Assignment01  
 All elements are denoted by comments in the code files:  
-"assignment01.html", "table001.html"    
+"assignment01.html", "table001.html"  
+I am designing a dogecoin blockchain explorer site.    
 ## NOTE:  
 I have a design drawing for my site, but was unable to  
 scan it, because the Library was closed, and I do not own  
