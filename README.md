@@ -6,6 +6,11 @@ Jan 15, 2024
 ## Assignment01  
 All elements are denoted by comments in the code files:  
 "assignment01.html", "table001.html"    
+## NOTE:  
+I have a design drawing for my site, but was unable to  
+scan it, because the Library was closed, and I do not own  
+a smartphone with which I could take a picture. Will  
+update this readme with a drawing by Wed. morning, Jan 17.  
 &nbsp;  
 Create a basic HTML page with the instructed elements:    
   doctype,    √  
